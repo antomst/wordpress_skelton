@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MxS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-27 21:49+0800\n"
+"PO-Revision-Date: 2012-03-22 15:14+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:4
+msgid "Error 404 - Not Found"
+msgstr "Eroarea 404 - nu a fost găsit"
+
+#: ../archive.php:4
+#: ../category.php:4
+msgid "Home"
+msgstr "Home"
+
+#: ../archive.php:4
+#: ../archive.php:5
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: ../archive.php:12
+#: ../category.php:13
+#: ../index.php:1
+#: ../tag.php:13
+msgid "Category"
+msgstr "Categoria"
+
+#: ../archive.php:12
+#: ../category.php:13
+#: ../index.php:1
+#: ../single.php:5
+#: ../tag.php:13
+msgid " Edit"
+msgstr " Editare"
+
+#: ../archive.php:13
+#: ../category.php:14
+#: ../index.php:1
+#: ../tag.php:14
+msgid "Off"
+msgstr "Off"
+
+#: ../archive.php:16
+#: ../category.php:16
+#: ../index.php:1
+#: ../tag.php:17
+msgid "» Continue Reading"
+msgstr "» A continua gata"
+
+#: ../archive.php:26
+#: ../category.php:25
+#: ../index.php:1
+#: ../page.php:14
+#: ../tag.php:26
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+#: ../category.php:6
+msgid " Archive"
+msgstr " Arhiva"
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Acest post este protejată prin parolă. Introduceţi parola pentru vizualizarea comentariilor."
+
+#: ../comments.php:39
+msgid "Comments"
+msgstr "Comentarii"
+
+#: ../comments.php:39
+msgid "Comments (Close)"
+msgstr "Comentarii (aproape)"
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: ../comments.php:67
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+#: ../comments.php:67
+msgid "Pingbacks (Close)"
+msgstr "Pingbacks (aproape)"
+
+#: ../comments.php:72
+#, php-format
+msgid "%s from %s"
+msgstr "%s din %s"
+
+#: ../footer.php:1
+msgid "TOP"
+msgstr "TOP"
+
+#: ../footer.php:1
+msgid "Powered by "
+msgstr "oferit de "
+
+#: ../footer.php:1
+msgid "Theme "
+msgstr "Temă "
+
+#: ../functions.php:1
+msgid "Primary Navigation"
+msgstr "Navigare primare"
+
+#: ../functions.php:1
+msgid "(Edit)"
+msgstr "(Editare)"
+
+#: ../search.php:4
+msgid "Search Results »"
+msgstr "Rezultatele cautarii»"
+
+#: ../search.php:16
+msgid "No posts found. Try a different search?"
+msgstr "Nu posturile de găsit. Încercaţi o căutare diferite?"
+
+#: ../sidebar.php:5
+msgid "Archive"
+msgstr "Arhiva"
+
+#: ../sidebar.php:12
+msgid "Meta"
+msgstr "Meta"
+
+#: ../single.php:1
+msgid "« Previous"
+msgstr "«Anterioare"
+
+#: ../single.php:1
+msgid "Next » "
+msgstr "Next» "
+
+#: ../single.php:2
+msgid "Posted on "
+msgstr "Postat pe "
+
+#: ../single.php:5
+msgid "» Tags:"
+msgstr "» Tag-uri:"
+
