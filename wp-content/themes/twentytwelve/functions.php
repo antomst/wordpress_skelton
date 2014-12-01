@@ -497,3 +497,18 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130301', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+//////////////////////////custom added ///////////////////////////////////
+if (function_exists('register_nav_menus')) {
+    register_nav_menus(
+            array(
+                'main_nav' => 'Main Navigation Menu'
+            )
+    );
+}
+function add_nav_class($output) {
+    $output = preg_replace('/<a/', '<a class="scroll"', $output, -1);
+    return $output;
+}
+
+add_filter('wp_nav_menu', 'add_nav_class');

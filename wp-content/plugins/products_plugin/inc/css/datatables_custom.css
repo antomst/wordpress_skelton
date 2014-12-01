@@ -1,0 +1,63 @@
+/*Some alignments in the datatable*/
+.dataTables_length, .dataTables_info {
+    float: left;
+    text-align: left;
+    padding:5px;
+}
+
+.dataTables_filter, .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding:5px;
+}
+
+.dataTables_paginate a {
+    padding:0 5px 0 5px;
+}
+
+#tblList_wrapper{
+    width:100%;
+    /*margin-left: 25%;*/
+}
+
+.dataTables_processing {
+    margin-top: 10px;
+}
+/*table.dataTable td.sorting_1{ background-color: white; border:1px lightgrey; }
+table.dataTable td{ background-color: white;  border:1px lightgrey;}
+*/
+table.dataTable tr.odd td { background-color: white;  padding:3px 0 3px 5px; }
+table.dataTable tr.even td { background-color: #E6E6E6; padding:3px 0 3px 5px; }
+.css_right {
+    float:right;
+}
+.DataTables_sort_wrapper {
+    padding: 3px 0 3px 0;   
+}
+
+.add_row {
+    margin-left:25px;
+}
+
+table.dataTable tr.even.row_selected td, table.dataTable tr.odd.row_selected td {
+    background-color: #CCCCCC;
+}
+
+
+/*Page*/
+body { font-size: 62.5%; }
+label, input.text { display:block; }
+input.text { margin-bottom:2px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.error {color:red;}
+
+
+/*Multi Select*/
+ul.ui-multiselect-checkboxes li label input { float:left; }
+ul.ui-multiselect-checkboxes li label span { margin:1px 0 0 4px; }
